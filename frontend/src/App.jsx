@@ -17,7 +17,7 @@ export default function App() {
                 position: "sticky", top: 0, zIndex: 10
             }}>
                 <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-                    <img src="/logo.png" alt="ClinicalQA" style={{ width: "32px", height: "32px", borderRadius: "8px" }} />
+                    <img src="/logo.png" alt="ClinicalQA" style={{ width: "36px", height: "36px", borderRadius: "8px", objectFit: "contain" }} />
                     <span style={{ fontSize: "15px", fontWeight: "600", letterSpacing: "-0.02em", color: "var(--text)" }}>
                         ClinicalQA
                     </span>
