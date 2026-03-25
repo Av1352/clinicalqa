@@ -6,7 +6,13 @@ from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
 from anthropic import Anthropic
 
-model = SentenceTransformer("all-MiniLM-L6-v2")
+_model = None
+
+def get_model():
+    global _model
+    if _model is None:
+        _model = SentenceTransformer("all-MiniLM-L6-v2")
+    return _model
 load_dotenv()
 client = Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
 
@@ -43,7 +49,7 @@ def parse_txt(file_bytes):
     return file_bytes.decode("utf-8")
 
 def build_index(chunks):
-    embeddings = model.encode(chunks, convert_to_numpy=True)
+    embeddings = get_model().encode(chunks, convert_to_numpy=True)
     embeddings = embeddings / np.linalg.norm(embeddings, axis=1, keepdims=True)
     dim = embeddings.shape[1]
     index = faiss.IndexFlatIP(dim)
@@ -51,7 +57,7 @@ def build_index(chunks):
     return index, embeddings
 
 def retrieve(question, chunks, index, k=4):
-    q_emb = model.encode([question], convert_to_numpy=True)
+    q_emb = get_model().encode([question], convert_to_numpy=True)
     q_emb = q_emb / np.linalg.norm(q_emb, axis=1, keepdims=True)
     scores, indices = index.search(q_emb, k)
     results = []
