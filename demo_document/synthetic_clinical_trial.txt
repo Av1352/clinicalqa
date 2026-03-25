@@ -1,0 +1,64 @@
+CLINICAL TRIAL SUMMARY REPORT
+
+Trial Title: CARDIO-SHIELD Phase 2 — Efficacy and Safety of Velorapib in Patients with Stable Angina
+Protocol Number: CS-2024-0117
+Sponsor: Helix Therapeutics Inc.
+Principal Investigator: Dr. Marcus Obi, MD, PhD
+Site: Boston Medical Research Consortium
+Trial Period: January 2024 – December 2025
+Status: Completed
+
+---
+
+STUDY OVERVIEW
+
+CARDIO-SHIELD evaluated the efficacy and safety of velorapib, a novel selective calcium channel modulator, compared to placebo in adult patients with stable angina pectoris. This was a randomized, double-blind, placebo-controlled trial.
+
+---
+
+ENROLLMENT
+
+Total screened: 412 patients
+Randomized: 280 patients
+  - Velorapib 50mg arm: 140 patients
+  - Placebo arm: 140 patients
+Completed trial: 261 patients (93.2%)
+Discontinued: 19 patients (6.8%) — 11 adverse events, 8 withdrawal of consent
+
+Inclusion criteria: Age 40–75, documented stable angina, at least 2 episodes per week for 3 months prior.
+Exclusion criteria: Recent MI within 6 months, LVEF below 40%, eGFR under 30 mL/min.
+
+---
+
+PRIMARY ENDPOINT
+
+Reduction in weekly angina episode frequency at 24 weeks compared to baseline.
+
+Velorapib 50mg: Mean reduction of 4.2 episodes per week (58% reduction from baseline)
+Placebo: Mean reduction of 1.1 episodes per week (15% reduction from baseline)
+Difference: 3.1 episodes/week (p < 0.001, 95% CI: 2.6–3.7)
+
+Primary endpoint met. Statistically significant and clinically meaningful reduction in angina frequency.
+
+---
+
+SECONDARY ENDPOINTS
+
+1. Time to first angina episode post-dose:
+   Velorapib: 6.3 hours (median)
+   Placebo: 2.1 hours (median)
+   p = 0.003
+
+2. Nitroglycerin rescue use per week:
+   Velorapib: 0.8 uses/week
+   Placebo: 2.9 uses/week
+   p < 0.001
+
+3. Quality of Life (Seattle Angina Questionnaire):
+   Velorapib: +22.4 point improvement
+   Placebo: +6.1 point improvement
+   p = 0.008
+
+4. Exercise tolerance test (treadmill duration):
+   Velorapib: +94 seconds from baseline
+   Placebo: +21 se

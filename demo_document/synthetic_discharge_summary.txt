@@ -1,0 +1,25 @@
+DISCHARGE SUMMARY
+
+Patient: John D. | DOB: 1958-03 - 12 | MRN: 00293847
+Admission: 2026-03 - 10 | Discharge: 2026-03 - 14
+Attending: Dr.Sarah Chen, MD
+
+CHIEF COMPLAINT: Severe chest pain, left - sided, radiating to left arm.
+
+    HISTORY: 67 - year - old male with history of hypertension and type 2 diabetes presented to ED with 2 - hour history of severe left - sided chest pain rated 8 / 10, radiating to left arm and jaw, associated with diaphoresis and shortness of breath.
+
+        DIAGNOSES: ST - Elevation Myocardial Infarction(STEMI), anterior wall.Hypertension.Type 2 Diabetes Mellitus.
+
+            PROCEDURES: Emergency cardiac catheterization with PCI and stent placement in LAD.
+
+MEDICATIONS AT DISCHARGE:
+- Aspirin 81mg daily
+    - Clopidogrel 75mg daily
+        - Atorvastatin 80mg nightly
+            - Metoprolol succinate 50mg daily
+                - Lisinopril 10mg daily
+                    - Metformin 1000mg twice daily
+
+FOLLOW - UP: Cardiology in 1 week.Primary care in 2 weeks.Cardiac rehabilitation program enrollment.
+
+    RESTRICTIONS: No driving for 2 weeks.No heavy lifting for 4 weeks.Low - sodium, low - fat diet.
