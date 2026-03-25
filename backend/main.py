@@ -1,4 +1,5 @@
 import os
+print("PORT is:", os.environ.get("PORT"))
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
