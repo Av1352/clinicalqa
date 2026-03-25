@@ -1,8 +1,8 @@
+import os
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from rag_pipeline import parse_pdf, parse_txt, chunk_text, build_index, retrieve, answer
-import os
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -50,3 +50,8 @@ def ask(req: AskRequest):
     sources = retrieve(req.question, doc["chunks"], doc["index"])
     response = answer(req.question, sources)
     return {"answer": response, "sources": sources}
+
+if __name__ == "__main__":
+    import uvicorn
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run("main:app", host="0.0.0.0", port=port)
